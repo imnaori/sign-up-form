@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Noto+Sans:wght@700&family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+body {
+    background-image: url('/imagens/bg-intro-desktop.png');
+    background-color: rgb(255, 122, 122);
+}
+
+.main-form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-form {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.left-form > h1{
+    font-size: 50px;
+    font-family: "Poppins" ;
+    
+}
+
+.left-form > p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.right-form {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-form {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.btn-offer{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    background: hsl(248, 32%, 49%);
+    color: white;
+    cursor: pointer;
+
+   
+}
+
+.card-form > p {
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield > input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  background: #ffffff;
+  color: #000000de;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: hsl(154, 59%, 51%);
+  cursor: pointer;
+}
